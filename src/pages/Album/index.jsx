@@ -1,12 +1,12 @@
 import Layout from '../../components/molecules/Layout';
-import ListUser from './ListUser';
+import ListAlbum from './ListAlbum';
 
-const Home = () => {
+const Album = () => {
   return (
     <Layout>
-      <ListUser />
+      <ListAlbum />
     </Layout>
   );
 };
 
-export default Home;
+export default Album;
